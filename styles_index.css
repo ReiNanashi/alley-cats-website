@@ -1,0 +1,20 @@
+
+.main-content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+}
+.body-image {
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 50px;
+}
+.right-alligned {
+    float: right;
+}
+.left-alligned {
+    float: left;
+}
