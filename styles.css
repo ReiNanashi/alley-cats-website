@@ -69,11 +69,20 @@ header {
 footer {
     background-color: rgb(247,35,59);
 }
-/*.footer-nav {
-    
-}*/
+.footer-nav{
+    list-style-position:inside;
+}
 .footer-nav-item {
-    display: inline;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.footer-nav-text {
+    height: 100%;
+    line-height: 1em;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 15px;
 }
 .footer-nav-link {
     text-decoration: none;
@@ -84,4 +93,6 @@ footer {
 .footer-nav-image {
     max-width: 2em;
     max-height: 2em;
+    vertical-align: middle;
+    margin: 0px 5px;
 }

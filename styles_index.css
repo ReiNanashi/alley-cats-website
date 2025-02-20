@@ -6,11 +6,17 @@
     display: block;
     text-align: justify;
 }
+.main-content p {
+    margin: 0px 50px;
+}
 .body-image {
-    max-width: 400px;
+    max-width: 40px;
     max-height: 400px;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: 50px;
+    object-fit: contain;
 }
 .right-alligned {
     float: right;
