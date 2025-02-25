@@ -1,0 +1,13 @@
+.song-list {
+
+}
+.song-item {
+    display: block;
+}
+.song-link-list {
+    list-style-position: inside;
+    text-align: center;
+}
+.song-link-item {
+    display: inline-block;
+}
