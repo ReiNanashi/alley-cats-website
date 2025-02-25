@@ -1,8 +1,17 @@
 .song-list {
-
+    margin: 0 auto;
+    display: block;
+    width: ;
+    max-width: 1000px;
 }
 .song-item {
     display: block;
+}
+.left-align {
+    float: left;
+}
+.right-align {
+    float: right;
 }
 .song-link-list {
     list-style-position: inside;
