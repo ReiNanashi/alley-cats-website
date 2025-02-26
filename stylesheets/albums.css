@@ -32,6 +32,16 @@
     margin-left: 2%;
     text-align: left;
 }
+.left-float {
+    float: left;
+}
+.right-float {
+    float: right;
+}
+.song {
+    width: 80%;
+    height: 100%;
+}
 .song-link-list {
     list-style-position: inside;
     text-align: center;
