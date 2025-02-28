@@ -11,9 +11,10 @@
     margin-bottom: 30px;
 }
 .song-description {
-    display: inline-block;
+    display: block;
     margin: 0;
     width: 30%;
+    height: 100%;
 }
 .media-player {
     width: 70%;
@@ -43,9 +44,15 @@
     width: 80%;
     height: 100%;
 }
+.song-name {
+    display: block;
+    height: 250px;
+}
 .song-link-list {
+    disp
     list-style-position: inside;
     text-align: center;
+    height: 50px;
 }
 .song-link-item {
     display: inline-block;
