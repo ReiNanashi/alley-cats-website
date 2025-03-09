@@ -8,15 +8,45 @@
 .song-item {
     display: inline-block;
     width: 90%;
-    margin: 5% 0 5% 5%;
+    margin: 50px 5%;
 }
 .song {
-    display: inline-block;
+    display: flex;
     width: 100%;
+    justify-content: left;
 }
 .embeded-player {
     border-radius: 12px;
-    width: 100%;
+    width: 86%;
     height: 100%;
     min-height: 232px;
+    margin: 0 2%;
+}
+.song-link-list {
+    width: 72px;
+    height: 232px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.song-link-list-header {
+    font-size: x-large;
+    text-align: center;
+    width: 72px;
+}
+.song-link-list-item {
+    display: flex;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.song-link-list-item img {
+    width: 40px;
+}
+.spotify {
+    margin-top: 10%;
+}
+hr {
+    margin: 10px;
 }
